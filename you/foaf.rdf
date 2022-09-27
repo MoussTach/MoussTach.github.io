@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns="http://usefulinc.com/ns/doap#">
+	
+	<foaf:Person>
+		<foaf:name>Gaetan Brenckle</foaf:name>
+		<foaf:title>M.</foaf:title>
+
+		<foaf:givenname>Gaetan</foaf:givenname>
+		<foaf:family_name>Brenckle</foaf:family_name>	<foaf:mbox_sha1sum>12a285a185202b119b7da59ef065b29028f1e6d2</foaf:mbox_sha1sum>
+		<foaf:dateOfBirth>1996-11-16</foaf:dateOfBirth>
+		<foaf:homepage rdf:resource="https://moodle.univ-lr.fr/2022/user/profile.php?id=4105" dc:title="Profil étudiant"/>
+
+		<foaf:schoolHomepage rdf:resource="https://www.univ-larochelle.fr/"/>
+		<foaf:workplaceHomepage rdf:resource="https://www-dev.cat-amania.fr/la-societe/"/>
+		<foaf:gender>male</foaf:gender>	
+		
+		<foaf:holdsAccount>
+			<foaf:OnlineAccount rdf:about="https://github.com/MoussTach">
+				<foaf:accountServiceHomepage rdf:resource="https://github.com/"/>
+				<foaf:accountName>MoussTach</foaf:accountName>
+				<foaf:name>github</foaf:name>
+				<foaf:thumbnail rdf:resource="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/>
+			</foaf:OnlineAccount>
+		</foaf:holdsAccount>
+		
+	</foaf:Person>
+	
+</rdf:RDF>
